@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20200923 19:41:51.650" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20200923 20:32:59.628" rpa="false">
 <suite id="s1" name="Test" source="C:\Users\Usuario\Desktop\dandy\papito\Teste-Qa\hello\test.robot">
 <test id="s1-t1" name="Deve retornar mensagem de boas vindas">
 <kw name="Welcome" library="app">
@@ -9,8 +9,8 @@
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20200923 19:41:51.721" level="INFO">${result} = Olá Daniel, bem vindo ao Curso básico de Robot Framework</msg>
-<status status="PASS" starttime="20200923 19:41:51.721" endtime="20200923 19:41:51.721"></status>
+<msg timestamp="20200923 20:32:59.688" level="INFO">${result} = Olá Daniel, bem vindo ao Curso básico de Robot Framework</msg>
+<status status="PASS" starttime="20200923 20:32:59.687" endtime="20200923 20:32:59.688"></status>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <doc>Fails if the given objects are unequal.</doc>
@@ -18,11 +18,11 @@
 <arg>${result}</arg>
 <arg>Olá Daniel, bem vindo ao Curso básico de Robot Framework</arg>
 </arguments>
-<status status="PASS" starttime="20200923 19:41:51.722" endtime="20200923 19:41:51.723"></status>
+<status status="PASS" starttime="20200923 20:32:59.688" endtime="20200923 20:32:59.689"></status>
 </kw>
-<status status="PASS" starttime="20200923 19:41:51.719" endtime="20200923 19:41:51.724" critical="yes"></status>
+<status status="PASS" starttime="20200923 20:32:59.686" endtime="20200923 20:32:59.690" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200923 19:41:51.655" endtime="20200923 19:41:51.726"></status>
+<status status="PASS" starttime="20200923 20:32:59.632" endtime="20200923 20:32:59.692"></status>
 </suite>
 <statistics>
 <total>
