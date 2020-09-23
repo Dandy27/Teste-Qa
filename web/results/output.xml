@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.5 on win32)" generated="20200828 22:28:25.564" rpa="false">
+<suite id="s1" name="Tests" source="C:\Users\Usuario\Desktop\dandy\papito\web\tests">
+<suite id="s1-s1" name="Checkbox" source="C:\Users\Usuario\Desktop\dandy\papito\web\tests\checkbox.robot">
+<test id="s1-s1-t1" name="Marcando opção com Id">
+<kw name="Nova Seção" library="base" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>firefox</arg>
+</arguments>
+<msg timestamp="20200828 22:28:26.041" level="INFO">Opening browser 'firefox' to base url 'http://training-wheels-protocol.herokuapp.com'.</msg>
+<msg timestamp="20200828 22:28:26.043" level="INFO">Firefox driver log is always forced to to: C:\Users\Usuario\Desktop\dandy\papito\web\results\geckodriver-7.log</msg>
+<status status="PASS" starttime="20200828 22:28:26.040" endtime="20200828 22:28:37.916"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:28:26.039" endtime="20200828 22:28:37.917"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${url}/checkboxes</arg>
+</arguments>
+<msg timestamp="20200828 22:28:37.936" level="INFO">Opening url 'http://training-wheels-protocol.herokuapp.com/checkboxes'</msg>
+<status status="PASS" starttime="20200828 22:28:37.935" endtime="20200828 22:28:38.646"></status>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<arguments>
+<arg>${check_thor}</arg>
+</arguments>
+<msg timestamp="20200828 22:28:38.648" level="INFO">Selecting checkbox 'id:thor'.</msg>
+<status status="PASS" starttime="20200828 22:28:38.647" endtime="20200828 22:28:38.952"></status>
+</kw>
+<kw name="Checkbox Should Be Selected" library="SeleniumLibrary">
+<doc>Verifies checkbox ``locator`` is selected/checked.</doc>
+<arguments>
+<arg>${check_thor}</arg>
+</arguments>
+<msg timestamp="20200828 22:28:38.953" level="INFO">Verifying checkbox 'id:thor' is selected.</msg>
+<status status="PASS" starttime="20200828 22:28:38.953" endtime="20200828 22:28:38.989"></status>
+</kw>
+<kw name="Encerrar Seção" library="base" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200828 22:28:38.992" endtime="20200828 22:28:43.754"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:28:38.991" endtime="20200828 22:28:43.754"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:28:26.038" endtime="20200828 22:28:43.755" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="Marcando opção com CSS Selector">
+<kw name="Nova Seção" library="base" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>firefox</arg>
+</arguments>
+<msg timestamp="20200828 22:28:43.759" level="INFO">Opening browser 'firefox' to base url 'http://training-wheels-protocol.herokuapp.com'.</msg>
+<msg timestamp="20200828 22:28:43.761" level="INFO">Firefox driver log is always forced to to: C:\Users\Usuario\Desktop\dandy\papito\web\results\geckodriver-8.log</msg>
+<status status="PASS" starttime="20200828 22:28:43.759" endtime="20200828 22:28:57.555"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:28:43.758" endtime="20200828 22:28:57.556"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${url}/checkboxes</arg>
+</arguments>
+<msg timestamp="20200828 22:28:57.559" level="INFO">Opening url 'http://training-wheels-protocol.herokuapp.com/checkboxes'</msg>
+<status status="PASS" starttime="20200828 22:28:57.558" endtime="20200828 22:28:58.103"></status>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<arguments>
+<arg>${check_iron}</arg>
+</arguments>
+<msg timestamp="20200828 22:28:58.108" level="INFO">Selecting checkbox 'css:input[value='iron-man']'.</msg>
+<status status="PASS" starttime="20200828 22:28:58.107" endtime="20200828 22:28:58.404"></status>
+</kw>
+<kw name="Checkbox Should Be Selected" library="SeleniumLibrary">
+<doc>Verifies checkbox ``locator`` is selected/checked.</doc>
+<arguments>
+<arg>${check_iron}</arg>
+</arguments>
+<msg timestamp="20200828 22:28:58.406" level="INFO">Verifying checkbox 'css:input[value='iron-man']' is selected.</msg>
+<status status="PASS" starttime="20200828 22:28:58.405" endtime="20200828 22:28:58.438"></status>
+</kw>
+<kw name="Encerrar Seção" library="base" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200828 22:28:58.439" endtime="20200828 22:29:02.961"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:28:58.438" endtime="20200828 22:29:02.962"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:28:43.757" endtime="20200828 22:29:02.962" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="Marcando opção com Xpath">
+<kw name="Nova Seção" library="base" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>firefox</arg>
+</arguments>
+<msg timestamp="20200828 22:29:02.967" level="INFO">Opening browser 'firefox' to base url 'http://training-wheels-protocol.herokuapp.com'.</msg>
+<msg timestamp="20200828 22:29:02.970" level="INFO">Firefox driver log is always forced to to: C:\Users\Usuario\Desktop\dandy\papito\web\results\geckodriver-9.log</msg>
+<status status="PASS" starttime="20200828 22:29:02.966" endtime="20200828 22:29:16.422"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:29:02.966" endtime="20200828 22:29:16.423"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${url}/checkboxes</arg>
+</arguments>
+<msg timestamp="20200828 22:29:16.429" level="INFO">Opening url 'http://training-wheels-protocol.herokuapp.com/checkboxes'</msg>
+<status status="PASS" starttime="20200828 22:29:16.428" endtime="20200828 22:29:17.006"></status>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<arguments>
+<arg>${check_panter}</arg>
+</arguments>
+<msg timestamp="20200828 22:29:17.012" level="INFO">Selecting checkbox 'xpath://*[@id='checkboxes']/input[7]'.</msg>
+<status status="PASS" starttime="20200828 22:29:17.011" endtime="20200828 22:29:17.308"></status>
+</kw>
+<kw name="Checkbox Should Be Selected" library="SeleniumLibrary">
+<doc>Verifies checkbox ``locator`` is selected/checked.</doc>
+<arguments>
+<arg>${check_panter}</arg>
+</arguments>
+<msg timestamp="20200828 22:29:17.309" level="INFO">Verifying checkbox 'xpath://*[@id='checkboxes']/input[7]' is selected.</msg>
+<status status="PASS" starttime="20200828 22:29:17.308" endtime="20200828 22:29:17.347"></status>
+</kw>
+<kw name="Encerrar Seção" library="base" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200828 22:29:17.348" endtime="20200828 22:29:21.171"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:29:17.348" endtime="20200828 22:29:21.171"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:29:02.964" endtime="20200828 22:29:21.171" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200828 22:28:25.620" endtime="20200828 22:29:21.174"></status>
+</suite>
+<suite id="s1-s2" name="Title" source="C:\Users\Usuario\Desktop\dandy\papito\web\tests\title.robot">
+<test id="s1-s2-t1" name="Should See Page Title">
+<kw name="Nova Seção" library="base" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>firefox</arg>
+</arguments>
+<msg timestamp="20200828 22:29:21.195" level="INFO">Opening browser 'firefox' to base url 'http://training-wheels-protocol.herokuapp.com'.</msg>
+<msg timestamp="20200828 22:29:21.198" level="INFO">Firefox driver log is always forced to to: C:\Users\Usuario\Desktop\dandy\papito\web\results\geckodriver-10.log</msg>
+<status status="PASS" starttime="20200828 22:29:21.194" endtime="20200828 22:29:35.142"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:29:21.193" endtime="20200828 22:29:35.142"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Training Wheels Protocol</arg>
+</arguments>
+<msg timestamp="20200828 22:29:35.152" level="INFO">Page title is 'Training Wheels Protocol'.</msg>
+<status status="PASS" starttime="20200828 22:29:35.148" endtime="20200828 22:29:35.152"></status>
+</kw>
+<kw name="Encerrar Seção" library="base" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200828 22:29:35.155" endtime="20200828 22:29:39.727"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:29:35.154" endtime="20200828 22:29:39.728"></status>
+</kw>
+<status status="PASS" starttime="20200828 22:29:21.190" endtime="20200828 22:29:39.729" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200828 22:29:21.181" endtime="20200828 22:29:39.732"></status>
+</suite>
+<status status="PASS" starttime="20200828 22:28:25.568" endtime="20200828 22:29:39.736"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" id="s1" name="Tests">Tests</stat>
+<stat pass="3" fail="0" id="s1-s1" name="Checkbox">Tests.Checkbox</stat>
+<stat pass="1" fail="0" id="s1-s2" name="Title">Tests.Title</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

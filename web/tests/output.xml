@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20200923 19:43:00.619" rpa="false">
+<suite id="s1" name="Checkbox" source="C:\Users\Usuario\Desktop\dandy\papito\Teste-Qa\web\tests\checkbox.robot">
+<test id="s1-t1" name="Marcando opção com Id">
+<kw name="Nova Seção" library="base" type="setup">
+<kw name="Open Browser">
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200923 19:43:00.697" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20200923 19:43:00.697" endtime="20200923 19:43:00.697"></status>
+</kw>
+<status status="FAIL" starttime="20200923 19:43:00.694" endtime="20200923 19:43:00.698"></status>
+</kw>
+<kw name="Encerrar Seção" library="base" type="teardown">
+<kw name="Close Browser">
+<msg timestamp="20200923 19:43:00.702" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200923 19:43:00.702" endtime="20200923 19:43:00.703"></status>
+</kw>
+<status status="FAIL" starttime="20200923 19:43:00.698" endtime="20200923 19:43:00.703">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200923 19:43:00.693" endtime="20200923 19:43:00.704" critical="yes">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-t2" name="Marcando opção com CSS Selector">
+<kw name="Nova Seção" library="base" type="setup">
+<kw name="Open Browser">
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200923 19:43:00.712" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20200923 19:43:00.712" endtime="20200923 19:43:00.712"></status>
+</kw>
+<status status="FAIL" starttime="20200923 19:43:00.709" endtime="20200923 19:43:00.712"></status>
+</kw>
+<kw name="Encerrar Seção" library="base" type="teardown">
+<kw name="Close Browser">
+<msg timestamp="20200923 19:43:00.716" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200923 19:43:00.716" endtime="20200923 19:43:00.716"></status>
+</kw>
+<status status="FAIL" starttime="20200923 19:43:00.713" endtime="20200923 19:43:00.717">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200923 19:43:00.708" endtime="20200923 19:43:00.717" critical="yes">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-t3" name="Marcando opção com Xpath">
+<kw name="Nova Seção" library="base" type="setup">
+<kw name="Open Browser">
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200923 19:43:00.733" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20200923 19:43:00.733" endtime="20200923 19:43:00.733"></status>
+</kw>
+<status status="FAIL" starttime="20200923 19:43:00.730" endtime="20200923 19:43:00.734"></status>
+</kw>
+<kw name="Encerrar Seção" library="base" type="teardown">
+<kw name="Close Browser">
+<msg timestamp="20200923 19:43:00.738" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200923 19:43:00.738" endtime="20200923 19:43:00.739"></status>
+</kw>
+<status status="FAIL" starttime="20200923 19:43:00.734" endtime="20200923 19:43:00.739">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200923 19:43:00.729" endtime="20200923 19:43:00.740" critical="yes">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20200923 19:43:00.624" endtime="20200923 19:43:00.747"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3">Critical Tests</stat>
+<stat pass="0" fail="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" id="s1" name="Checkbox">Checkbox</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200923 19:43:00.686" level="ERROR">Error in file 'C:\Users\Usuario\Desktop\dandy\papito\Teste-Qa\web\tests\base.robot' on line 2: Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Usuario\Desktop\dandy\papito\venv\Scripts\robot.exe
+  c:\users\usuario\desktop\dandy\papito\venv\scripts\python38.zip
+  c:\python38\DLLs
+  c:\python38\lib
+  c:\python38
+  c:\users\usuario\desktop\dandy\papito\venv
+  c:\users\usuario\desktop\dandy\papito\venv\lib\site-packages</msg>
+</errors>
+</robot>
