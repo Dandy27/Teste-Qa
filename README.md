@@ -1,2 +1,3 @@
 # Teste-Qa
-Testes usando Robot framework 
+Testes usando Robot framework e SeleniumLibrary
+
