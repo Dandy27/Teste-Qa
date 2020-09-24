@@ -9,5 +9,9 @@ Verifica o valor ao informar o número da linha
     Table Row Should Contain         id:actors       1     @robertdowneyjr
     
 Descobrir a linha pelo texto chave e valida os demais valores
-    
-   
+   Go To                            ${url}/tables 
+   ${target}                        Get WebElement        xpath:.//tr[contains(.,'@chadwickboseman')]
+   Log                              ${target.text}
+   Log To Console                   ${target.text}
+   Should Contain                   ${target.text}        $ 700.000
+   Should Contain                   ${target.text}        Pantera Negra
