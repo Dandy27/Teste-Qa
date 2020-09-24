@@ -7,3 +7,7 @@ Test Teardown                       Encerrar Seção
 Verifica o valor ao informar o número da linha 
     Go To                           ${url}/tables
     Table Row Should Contain         id:actors       1     @robertdowneyjr
+    
+Descobrir a linha pelo texto chave e valida os demais valores
+    
+   
