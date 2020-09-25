@@ -1,7 +1,7 @@
 *** Settings ***
 Resource        base.robot
-Test Setup      Nova Seção
-Test Teardown   Encerrar Seção
+Test Setup      Nova Sessão
+Test Teardown   Encerrar Sessão
 
 *** Variables ***
 ${check_thor}          id:thor
